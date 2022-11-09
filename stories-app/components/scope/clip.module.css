@@ -1,0 +1,239 @@
+.slider {
+    position: relative !important;
+    filter: alpha(opacity=60) !important;
+}
+
+.circle {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50px !important;
+    border: 1px solid white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+
+.btn {
+    background-color: white !important;
+    box-shadow: 2px 2px 0px #D1E231;
+    color: black !important;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    margin: auto;
+}
+
+.btn:hover {
+    transition: box-shadow 0.2s ease-in-out;
+    box-shadow: 3px 4px 0px #4b4c43 !important;
+
+
+}
+
+
+
+
+.index {
+    position: absolute !important;
+    left: 6% !important;
+    top: 59% !important;
+
+}
+
+@media screen and (max-width: 2000px) {
+    .icons {
+        position: absolute !important;
+        left: 20% !important;
+        bottom: 15% !important;
+    }
+
+    .index {
+        position: absolute !important;
+        left: 19% !important;
+        top: 61% !important;
+
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .icons {
+        position: absolute !important;
+        left: 20% !important;
+        bottom: 15% !important;
+    }
+
+    .index {
+        position: absolute !important;
+        left: 15% !important;
+        top: 59% !important;
+
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .icons {
+        position: absolute !important;
+        left: 20% !important;
+        bottom: 15% !important;
+    }
+
+    .index {
+        position: absolutev;
+        left: 10% !important;
+        top: 59% !important;
+
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .icons {
+        position: absolute !important;
+        left: 20% !important;
+        bottom: 15% !important;
+    }
+
+    .index {
+        position: absolute !important;
+        left: 5% !important;
+        top: 62% !important;
+
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .icons {
+        position: absolute !important;
+        left: 20% !important;
+        bottom: 17% !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .index {
+        position: absolute !important;
+        left: 0% !important;
+        top: 64% !important;
+
+    }
+
+    .icons {
+        position: absolute !important;
+        left: 20% !important;
+        bottom: 17.5% !important;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .icons {
+        position: absolute !important;
+        left: 21% !important;
+        bottom: 17.5% !important;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .icons {
+        position: absolute !important;
+        left: 22% !important;
+        bottom: 19% !important;
+    }
+
+    .index {
+        position: absolute !important;
+        left: -3% !important;
+        top: 66% !important;
+
+    }
+
+}
+
+@media screen and (max-width: 1000.5px) {
+    .index {
+        position: absolute !important;
+        left: 13% !important;
+        top: 66% !important;
+
+    }
+
+    .icons {
+        position: absolute !important;
+        left: 6% !important;
+        bottom: 15% !important;
+    }
+}
+
+@media screen and (max-width: 899.5px) {
+    .icons {
+        position: absolute !important;
+        left: 7% !important;
+        bottom: 17% !important;
+    }
+
+    .index {
+        position: absolute !important;
+        left: -32% !important;
+        top: 66% !important;
+
+    }
+}
+
+@media screen and (max-width: 730.5px) {
+    .icons {
+        position: absolute !important;
+        left: 7% !important;
+        bottom: 17.5% !important;
+    }
+}
+
+@media screen and (max-width: 630.5px) {
+    .icons {
+        position: absolute !important;
+        left: 9% !important;
+        bottom: 18% !important;
+    }
+}
+
+@media screen and (max-width: 599.5px) {
+    .icons {
+        position: absolute !important;
+        left: 70% !important;
+        bottom: 30% !important;
+    }
+
+    .index {
+        position: absolute !important;
+        left: 90% !important;
+        top: -37% !important;
+
+    }
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .icons {
+        position: absolute !important;
+        left: 65% !important;
+        bottom: 215px !important;
+    }
+
+    .index {
+        position: absolute;
+        left: 43% !important;
+        top: -37% !important;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .icons {
+        position: absolute !important;
+        left: 60% !important;
+        bottom: 230px !important;
+    }
+}
+
